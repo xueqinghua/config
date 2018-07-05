@@ -1,0 +1,10 @@
+spring:
+	application:
+		name: provider
+server:
+	port: 9002
+	contextPath: /provider
+
+eureka:
+	instance:
+		statusPageUrlPath: ${server.contextPath}/info
