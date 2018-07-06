@@ -1,6 +1,6 @@
 server:
   port: 9007
-  contextPath: /consumer-ribbon-hystrix
+  contextPath: /consumer_ribbon_hystrix
 
 eureka:
   instance:
