@@ -1,6 +1,6 @@
 server:
   port: 9008
-  contextPath: /consumer_feign_hystrix
+  contextPath: /consumer-feign-hystrix
 
 eureka:
   instance:
