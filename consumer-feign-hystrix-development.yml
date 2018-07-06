@@ -1,0 +1,7 @@
+server:
+  port: 9008
+  contextPath: /consumer_feign_hystrix
+
+eureka:
+  instance:
+    statusPageUrlPath: ${server.contextPath}/info
