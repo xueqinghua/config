@@ -1,0 +1,7 @@
+server:
+  port: 9007
+  contextPath: /consumer_ribbon_hystrix
+
+eureka:
+  instance:
+    statusPageUrlPath: ${server.contextPath}/info
