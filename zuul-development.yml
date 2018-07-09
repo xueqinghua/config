@@ -1,0 +1,7 @@
+server:
+  port: 9009
+  contextPath: /zuul
+
+eureka:
+  instance:
+    statusPageUrlPath: ${server.contextPath}/info
