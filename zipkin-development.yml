@@ -1,0 +1,7 @@
+server:
+  port: 9010
+  contextPath: /zipkin
+
+eureka:
+  instance:
+    statusPageUrlPath: ${server.contextPath}/info
